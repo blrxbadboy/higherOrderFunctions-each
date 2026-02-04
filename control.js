@@ -7,18 +7,18 @@ function each(tab,func) {
     
 }
 //ex 2
-function sumSquares(numbers) {
+function sumSquares(n) {
     var total=0
-    each(numbers,function(el) {
+    each(n,function(el) {
         total+=el*el
     })
     return total
 }
 
 //ex 3
-function impairs(numbers) {
+function impairs(nu) {
     var total=[]
-    each(numbers,function(el) {
+    each(nu,function(el) {
         if(el%2!==0){
         total.push(el)
         }
@@ -27,45 +27,45 @@ function impairs(numbers) {
 }
 
 //ex4
-function sommeDeTousLesÉlémentsMultipliésParQuatre(numbers) {
+function sommeDeTousLesÉlémentsMultipliésParQuatre(n) {
     var total=0
-    each(numbers,function(el) {
+    each(n,function(el) {
         total+=el*4
     })
     return total
 }
 
 //ex 5
-function doublerTous(nombres) {
+function doublerTous(n) {
     var total=[]
-    each(nombres,function(el) {
+    each(n,function(el) {
         total.push(el*2)
     })
     return total
 }
 
 //ex 6
-function diviserTousParDeux(nombres) {
+function diviserTousParDeux(n) {
     var total=[]
-    each(nombres,function(el){
+    each(n,function(el){
         total.push(el/2)
     })
     return total
 }
 
 //ex 7
-function mettreEnMajuscules(chaines) {
+function mettreEnMajuscules(ch) {
     var total=[]
-    each(chaines,function(el){
+    each(ch,function(el){
         total.push(el.toUpperCase());
     })
     return total
 }
 
 //ex 8
-function pairs(nombres) {
+function pairs(n) {
     var total=[]
-    each(nombres,function(el) {
+    each(n,function(el) {
         if (el%2===0){
             total.push(el)
         }
@@ -74,9 +74,9 @@ function pairs(nombres) {
 }
 
 //ex 9
-function multiplesDeTrois(nombres) {
+function multiplesDeTrois(n) {
     var total=[]
-    each(nombres,function(el) {
+    each(n,function(el) {
         if (el%3===0){
             total.push(el)
         }
@@ -85,9 +85,9 @@ function multiplesDeTrois(nombres) {
 }
 
 // ex 10
-function positifs(nombres) {
+function positifs(n) {
     var total=[]
-    each(nombres,function(el){
+    each(n,function(el){
         if(el>0){
             total.push(el)
         }
@@ -96,9 +96,9 @@ function positifs(nombres) {
 }
 
 //ex 11
-function longueurPaire(chaines) {
+function longueurPaire(ch) {
     var total=[]
-    each(chaines,function(el) {
+    each(ch,function(el) {
         if (el.length%2===0) {
             total.push(el)
         }
