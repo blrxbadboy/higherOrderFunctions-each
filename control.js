@@ -17,13 +17,13 @@ function sumSquares(numbers) {
 
 //ex 3
 function impairs(numbers) {
-    var result=[]
+    var total=[]
     each(numbers,function(el) {
         if(el%2!==0){
-        result.push(el)
+        total.push(el)
         }
     })
-    return result
+    return total
 }
 
 //ex4
@@ -37,72 +37,72 @@ function sommeDeTousLesÉlémentsMultipliésParQuatre(numbers) {
 
 //ex 5
 function doublerTous(nombres) {
-    var result=[]
+    var total=[]
     each(nombres,function(el) {
-        result.push(el*2)
+        total.push(el*2)
     })
-    return result
+    return total
 }
 
 //ex 6
 function diviserTousParDeux(nombres) {
-    var result=[]
+    var total=[]
     each(nombres,function(el){
-        result.push(el/2)
+        total.push(el/2)
     })
-    return result
+    return total
 }
 
 //ex 7
 function mettreEnMajuscules(chaines) {
-    var result=[]
+    var total=[]
     each(chaines,function(el){
-        result.push(el.toUpperCase());
+        total.push(el.toUpperCase());
     })
-    return result
+    return total
 }
 
 //ex 8
 function pairs(nombres) {
-    var result=[]
+    var total=[]
     each(nombres,function(el) {
         if (el%2===0){
-            result.push(el)
+            total.push(el)
         }
     })
-    return result
+    return total
 }
 
 //ex 9
 function multiplesDeTrois(nombres) {
-    var result=[]
+    var total=[]
     each(nombres,function(el) {
         if (el%3===0){
-            result.push(el)
+            total.push(el)
         }
     })
-    return result
+    return total
 }
 
 // ex 10
 function positifs(nombres) {
-    var result=[]
+    var total=[]
     each(nombres,function(el){
         if(el>0){
-            result.push(el)
+            total.push(el)
         }
     })
-    return result
+    return total
 }
 
 //ex 11
 function longueurPaire(chaines) {
-    var result=[]
+    var total=[]
     each(chaines,function(el) {
         if (el.length%2===0) {
-            result.push(el)
+            total.push(el)
         }
     })
-    return result
+    return total
 }
 //ex 012
